@@ -1,0 +1,175 @@
+Last login: Thu Jan 20 07:15:40 on console
+satish@Satishs-MacBook-Pro ~ % ipconfig
+usage: ipconfig <command> <args>
+where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, set, setverbose
+satish@Satishs-MacBook-Pro ~ % ip config
+zsh: command not found: ip
+satish@Satishs-MacBook-Pro ~ % ipconfig getifaddr en0
+192.168.1.25
+satish@Satishs-MacBook-Pro ~ % ping www.google.com
+PING www.google.com (142.250.193.100): 56 data bytes
+64 bytes from 142.250.193.100: icmp_seq=0 ttl=59 time=11.135 ms
+64 bytes from 142.250.193.100: icmp_seq=1 ttl=59 time=11.154 ms
+64 bytes from 142.250.193.100: icmp_seq=2 ttl=59 time=12.192 ms
+64 bytes from 142.250.193.100: icmp_seq=3 ttl=59 time=13.256 ms
+64 bytes from 142.250.193.100: icmp_seq=4 ttl=59 time=12.335 ms
+64 bytes from 142.250.193.100: icmp_seq=5 ttl=59 time=16.715 ms
+64 bytes from 142.250.193.100: icmp_seq=6 ttl=59 time=11.416 ms
+64 bytes from 142.250.193.100: icmp_seq=7 ttl=59 time=11.494 ms
+64 bytes from 142.250.193.100: icmp_seq=8 ttl=59 time=10.981 ms
+64 bytes from 142.250.193.100: icmp_seq=9 ttl=59 time=12.385 ms
+64 bytes from 142.250.193.100: icmp_seq=10 ttl=59 time=16.269 ms
+64 bytes from 142.250.193.100: icmp_seq=11 ttl=59 time=14.219 ms
+64 bytes from 142.250.193.100: icmp_seq=12 ttl=59 time=13.129 ms
+64 bytes from 142.250.193.100: icmp_seq=13 ttl=59 time=12.441 ms
+64 bytes from 142.250.193.100: icmp_seq=14 ttl=59 time=11.304 ms
+64 bytes from 142.250.193.100: icmp_seq=15 ttl=59 time=10.102 ms
+64 bytes from 142.250.193.100: icmp_seq=16 ttl=59 time=12.357 ms
+64 bytes from 142.250.193.100: icmp_seq=17 ttl=59 time=17.693 ms
+64 bytes from 142.250.193.100: icmp_seq=18 ttl=59 time=12.650 ms
+64 bytes from 142.250.193.100: icmp_seq=19 ttl=59 time=11.428 ms
+64 bytes from 142.250.193.100: icmp_seq=20 ttl=59 time=12.312 ms
+64 bytes from 142.250.193.100: icmp_seq=21 ttl=59 time=13.240 ms
+64 bytes from 142.250.193.100: icmp_seq=22 ttl=59 time=12.525 ms
+64 bytes from 142.250.193.100: icmp_seq=23 ttl=59 time=13.271 ms
+64 bytes from 142.250.193.100: icmp_seq=24 ttl=59 time=12.175 ms
+64 bytes from 142.250.193.100: icmp_seq=25 ttl=59 time=12.829 ms
+64 bytes from 142.250.193.100: icmp_seq=26 ttl=59 time=12.712 ms
+64 bytes from 142.250.193.100: icmp_seq=27 ttl=59 time=12.349 ms
+64 bytes from 142.250.193.100: icmp_seq=28 ttl=59 time=12.145 ms
+64 bytes from 142.250.193.100: icmp_seq=29 ttl=59 time=48.360 ms
+64 bytes from 142.250.193.100: icmp_seq=30 ttl=59 time=11.882 ms
+64 bytes from 142.250.193.100: icmp_seq=31 ttl=59 time=12.574 ms
+64 bytes from 142.250.193.100: icmp_seq=32 ttl=59 time=11.891 ms
+64 bytes from 142.250.193.100: icmp_seq=33 ttl=59 time=11.176 ms
+64 bytes from 142.250.193.100: icmp_seq=34 ttl=59 time=14.786 ms
+64 bytes from 142.250.193.100: icmp_seq=35 ttl=59 time=12.558 ms
+64 bytes from 142.250.193.100: icmp_seq=36 ttl=59 time=12.763 ms
+64 bytes from 142.250.193.100: icmp_seq=37 ttl=59 time=15.729 ms
+64 bytes from 142.250.193.100: icmp_seq=38 ttl=59 time=16.599 ms
+64 bytes from 142.250.193.100: icmp_seq=39 ttl=59 time=12.205 ms
+64 bytes from 142.250.193.100: icmp_seq=40 ttl=59 time=12.877 ms
+64 bytes from 142.250.193.100: icmp_seq=41 ttl=59 time=11.821 ms
+64 bytes from 142.250.193.100: icmp_seq=42 ttl=59 time=11.517 ms
+64 bytes from 142.250.193.100: icmp_seq=43 ttl=59 time=12.153 ms
+64 bytes from 142.250.193.100: icmp_seq=44 ttl=59 time=12.986 ms
+64 bytes from 142.250.193.100: icmp_seq=45 ttl=59 time=11.997 ms
+64 bytes from 142.250.193.100: icmp_seq=46 ttl=59 time=260.202 ms
+64 bytes from 142.250.193.100: icmp_seq=47 ttl=59 time=14.318 ms
+64 bytes from 142.250.193.100: icmp_seq=48 ttl=59 time=11.909 ms
+64 bytes from 142.250.193.100: icmp_seq=49 ttl=59 time=19.251 ms
+64 bytes from 142.250.193.100: icmp_seq=50 ttl=59 time=40.957 ms
+64 bytes from 142.250.193.100: icmp_seq=51 ttl=59 time=11.383 ms
+64 bytes from 142.250.193.100: icmp_seq=52 ttl=59 time=12.291 ms
+64 bytes from 142.250.193.100: icmp_seq=53 ttl=59 time=11.698 ms
+64 bytes from 142.250.193.100: icmp_seq=54 ttl=59 time=12.058 ms
+64 bytes from 142.250.193.100: icmp_seq=55 ttl=59 time=11.552 ms
+64 bytes from 142.250.193.100: icmp_seq=56 ttl=59 time=12.839 ms
+64 bytes from 142.250.193.100: icmp_seq=57 ttl=59 time=12.105 ms
+64 bytes from 142.250.193.100: icmp_seq=58 ttl=59 time=17.899 ms
+64 bytes from 142.250.193.100: icmp_seq=59 ttl=59 time=13.068 ms
+64 bytes from 142.250.193.100: icmp_seq=60 ttl=59 time=12.676 ms
+64 bytes from 142.250.193.100: icmp_seq=61 ttl=59 time=11.830 ms
+64 bytes from 142.250.193.100: icmp_seq=62 ttl=59 time=14.147 ms
+64 bytes from 142.250.193.100: icmp_seq=63 ttl=59 time=12.171 ms
+64 bytes from 142.250.193.100: icmp_seq=64 ttl=59 time=11.093 ms
+64 bytes from 142.250.193.100: icmp_seq=65 ttl=59 time=23.907 ms
+64 bytes from 142.250.193.100: icmp_seq=66 ttl=59 time=11.798 ms
+64 bytes from 142.250.193.100: icmp_seq=67 ttl=59 time=11.771 ms
+64 bytes from 142.250.193.100: icmp_seq=68 ttl=59 time=13.314 ms
+64 bytes from 142.250.193.100: icmp_seq=69 ttl=59 time=13.008 ms
+64 bytes from 142.250.193.100: icmp_seq=70 ttl=59 time=15.034 ms
+64 bytes from 142.250.193.100: icmp_seq=71 ttl=59 time=11.589 ms
+64 bytes from 142.250.193.100: icmp_seq=72 ttl=59 time=12.600 ms
+64 bytes from 142.250.193.100: icmp_seq=73 ttl=59 time=12.694 ms
+64 bytes from 142.250.193.100: icmp_seq=74 ttl=59 time=11.856 ms
+64 bytes from 142.250.193.100: icmp_seq=75 ttl=59 time=10.703 ms
+64 bytes from 142.250.193.100: icmp_seq=76 ttl=59 time=12.875 ms
+64 bytes from 142.250.193.100: icmp_seq=77 ttl=59 time=12.772 ms
+64 bytes from 142.250.193.100: icmp_seq=78 ttl=59 time=12.111 ms
+64 bytes from 142.250.193.100: icmp_seq=79 ttl=59 time=12.463 ms
+64 bytes from 142.250.193.100: icmp_seq=80 ttl=59 time=14.658 ms
+64 bytes from 142.250.193.100: icmp_seq=81 ttl=59 time=12.568 ms
+64 bytes from 142.250.193.100: icmp_seq=82 ttl=59 time=13.715 ms
+64 bytes from 142.250.193.100: icmp_seq=83 ttl=59 time=12.648 ms
+64 bytes from 142.250.193.100: icmp_seq=84 ttl=59 time=12.375 ms
+64 bytes from 142.250.193.100: icmp_seq=85 ttl=59 time=10.456 ms
+64 bytes from 142.250.193.100: icmp_seq=86 ttl=59 time=15.659 ms
+64 bytes from 142.250.193.100: icmp_seq=87 ttl=59 time=12.413 ms
+64 bytes from 142.250.193.100: icmp_seq=88 ttl=59 time=12.601 ms
+64 bytes from 142.250.193.100: icmp_seq=89 ttl=59 time=11.287 ms
+64 bytes from 142.250.193.100: icmp_seq=90 ttl=59 time=12.242 ms
+64 bytes from 142.250.193.100: icmp_seq=91 ttl=59 time=13.261 ms
+64 bytes from 142.250.193.100: icmp_seq=92 ttl=59 time=12.265 ms
+64 bytes from 142.250.193.100: icmp_seq=93 ttl=59 time=12.481 ms
+64 bytes from 142.250.193.100: icmp_seq=94 ttl=59 time=13.174 ms
+64 bytes from 142.250.193.100: icmp_seq=95 ttl=59 time=12.268 ms
+64 bytes from 142.250.193.100: icmp_seq=96 ttl=59 time=12.735 ms
+64 bytes from 142.250.193.100: icmp_seq=97 ttl=59 time=10.919 ms
+ipconfig getifaddr en064 bytes from 142.250.193.100: icmp_seq=98 ttl=59 time=12.192 ms
+64 bytes from 142.250.193.100: icmp_seq=99 ttl=59 time=12.277 ms
+64 bytes from 142.250.193.100: icmp_seq=100 ttl=59 time=13.447 ms
+wdwdw64 bytes from 142.250.193.100: icmp_seq=101 ttl=59 time=13.633 ms
+d
+64 bytes from 142.250.193.100: icmp_seq=102 ttl=59 time=12.077 ms
+
+
+
+
+
+
+64 bytes from 142.250.193.100: icmp_seq=103 ttl=59 time=10.752 ms
+
+64 bytes from 142.250.193.100: icmp_seq=104 ttl=59 time=12.199 ms
+64 bytes from 142.250.193.100: icmp_seq=105 ttl=59 time=11.951 ms
+64 bytes from 142.250.193.100: icmp_seq=106 ttl=59 time=15.089 ms
+64 bytes from 142.250.193.100: icmp_seq=107 ttl=59 time=12.464 ms
+64 bytes from 142.250.193.100: icmp_seq=108 ttl=59 time=12.856 ms
+64 bytes from 142.250.193.100: icmp_seq=109 ttl=59 time=13.697 ms
+64 bytes from 142.250.193.100: icmp_seq=110 ttl=59 time=12.069 ms
+64 bytes from 142.250.193.100: icmp_seq=111 ttl=59 time=18.022 ms
+64 bytes from 142.250.193.100: icmp_seq=112 ttl=59 time=14.513 ms
+64 bytes from 142.250.193.100: icmp_seq=113 ttl=59 time=12.396 ms
+64 bytes from 142.250.193.100: icmp_seq=114 ttl=59 time=10.780 ms
+64 bytes from 142.250.193.100: icmp_seq=115 ttl=59 time=12.304 ms
+64 bytes from 142.250.193.100: icmp_seq=116 ttl=59 time=14.738 ms
+64 bytes from 142.250.193.100: icmp_seq=117 ttl=59 time=14.526 ms
+64 bytes from 142.250.193.100: icmp_seq=118 ttl=59 time=13.023 ms
+64 bytes from 142.250.193.100: icmp_seq=119 ttl=59 time=13.063 ms
+64 bytes from 142.250.193.100: icmp_seq=120 ttl=59 time=15.435 ms
+64 bytes from 142.250.193.100: icmp_seq=121 ttl=59 time=17.660 ms
+64 bytes from 142.250.193.100: icmp_seq=122 ttl=59 time=11.263 ms
+64 bytes from 142.250.193.100: icmp_seq=123 ttl=59 time=12.078 ms
+64 bytes from 142.250.193.100: icmp_seq=124 ttl=59 time=13.310 ms
+64 bytes from 142.250.193.100: icmp_seq=125 ttl=59 time=15.571 ms
+64 bytes from 142.250.193.100: icmp_seq=126 ttl=59 time=13.074 ms
+64 bytes from 142.250.193.100: icmp_seq=127 ttl=59 time=19.601 ms
+64 bytes from 142.250.193.100: icmp_seq=128 ttl=59 time=12.517 ms
+64 bytes from 142.250.193.100: icmp_seq=129 ttl=59 time=13.370 ms
+64 bytes from 142.250.193.100: icmp_seq=130 ttl=59 time=12.341 ms
+64 bytes from 142.250.193.100: icmp_seq=131 ttl=59 time=11.543 ms
+z64 bytes from 142.250.193.100: icmp_seq=132 ttl=59 time=13.866 ms
+64 bytes from 142.250.193.100: icmp_seq=133 ttl=59 time=13.006 ms
+64 bytes from 142.250.193.100: icmp_seq=134 ttl=59 time=12.103 ms
+64 bytes from 142.250.193.100: icmp_seq=135 ttl=59 time=10.737 ms
+64 bytes from 142.250.193.100: icmp_seq=136 ttl=59 time=12.458 ms
+64 bytes from 142.250.193.100: icmp_seq=137 ttl=59 time=37.291 ms
+64 bytes from 142.250.193.100: icmp_seq=138 ttl=59 time=12.432 ms
+64 bytes from 142.250.193.100: icmp_seq=139 ttl=59 time=13.237 ms
+^C
+--- www.google.com ping statistics ---
+140 packets transmitted, 140 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 10.102/15.377/260.202/21.289 ms
+satish@Satishs-MacBook-Pro ~ % ping www.whitehatjr.com
+PING www.whitehatjr.com.cdn.cloudflare.net (104.18.22.15): 56 data bytes
+64 bytes from 104.18.22.15: icmp_seq=0 ttl=59 time=6.119 ms
+64 bytes from 104.18.22.15: icmp_seq=1 ttl=59 time=5.879 ms
+64 bytes from 104.18.22.15: icmp_seq=2 ttl=59 time=7.048 ms
+^F64 bytes from 104.18.22.15: icmp_seq=3 ttl=59 time=6.030 ms
+64 bytes from 104.18.22.15: icmp_seq=4 ttl=59 time=6.856 ms
+64 bytes from 104.18.22.15: icmp_seq=5 ttl=59 time=4.396 ms
+^C
+--- www.whitehatjr.com.cdn.cloudflare.net ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.396/6.055/7.048/0.858 ms
+satish@Satishs-MacBook-Pro ~ % 
